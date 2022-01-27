@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ingvoo/style-dictionary-v3-example/issues"
   },
-  "homepage": "https://github.com/ingvoo/style-dictionary-v3-example#readme"
+  "homepage": "https://github.com/ingvoo/style-dictionary-v3-example#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
 }
