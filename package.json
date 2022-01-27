@@ -1,0 +1,23 @@
+{
+  "name": "style-dictionary-v3-example",
+  "version": "1.0.0",
+  "description": "Design tokens example with style dictionary v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingvoo/style-dictionary-v3-example.git"
+  },
+  "keywords": [
+    "css",
+    "design-tokens"
+  ],
+  "author": "ingvoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingvoo/style-dictionary-v3-example/issues"
+  },
+  "homepage": "https://github.com/ingvoo/style-dictionary-v3-example#readme"
+}
