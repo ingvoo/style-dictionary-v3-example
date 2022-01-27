@@ -1,0 +1,24 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["color/hsl", "size/rem"],
+      "transformGroup": "scss",
+      "files": [{
+        "destination": "scss/tokens.scss",
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    },
+    "json": {
+      "transformGroup": "web",
+      "files": [{
+        "destination": "public/tokens.json",
+        "format": "json/nested",
+        "mapName": "tokens"
+      }]
+    }
+  }
+}
